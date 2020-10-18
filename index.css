@@ -1,0 +1,56 @@
+@font-face {
+    font-family: regal;
+    src: url("./LTReponse\ Rounded.otf")
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+a {
+    text-decoration: none;
+    font-size:105%;
+}
+a:link {
+    color: purple;
+    border-bottom: none;
+}
+a:hover {
+    color: gold;
+    border-bottom: none;
+}
+
+#text {
+    width: 50%;
+    z-index: 1;
+    padding: 4%;
+    text-align: center;
+    border-radius: 25px;
+    background-color: white;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+
+}
+
+#text h1 {
+    font-size: 7vmin;
+    font-family: regal;
+}
+
+#logo {
+    max-width: 30%;
