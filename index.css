@@ -38,6 +38,8 @@ a:hover {
     border-radius: 25px;
     background-color: white;
 
+    font-size: 20px;
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -48,9 +50,30 @@ a:hover {
 }
 
 #text h1 {
-    font-size: 7vmin;
+    font-size: 40px;
     font-family: regal;
 }
 
 #logo {
     max-width: 30%;
+}
+@media screen and (max-width: 600px) {
+    #text {
+        width: 80%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:  601px) and (max-width: 1500px) {
+    #text {
+        width: 60%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1501px) {
+    #text {
+        width: 40%;
+        font-size: 20px;
+    }
+}
